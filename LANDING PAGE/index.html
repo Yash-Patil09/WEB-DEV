@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starbucks Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="circle"></div>
+    <header>
+      <div class="logo-container">
+          <a href="#"><img src="logo.png" class="logo"></a>
+          <!-- <span class="brand-name">Starbucks</span> -->
+      </div>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+  </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>It's not just Coffee</h2>
+            <h2>It's <span><u>Starbucks!!</u></span></h2>
+            <p style="font-style: italic;">
+              For true coffee lovers, finding a local coffee shop that feels like a home away from home, where the aroma of freshly brewed coffee fills the air, where baristas greet you with a warm smile and know your order by heart, and where each sip of coffee is a delightful journey through rich flavors and comforting familiarity..
+                <a href="#">Learn More</a>
+            </p>
+        </div>
+        <div class="imgBox">
+            <img src="img1.png" class="starbucks">
+        </div>
+    </div>
+    <ul class="thumb">
+        <li><img src="thumb1.png" onclick="ImgSlider('img1.png'); changeCircleColor('#017143')"></li>
+        <li><img src="thumb2.png" onclick="ImgSlider('img2.png'); changeCircleColor('#eb7495')"></li>
+        <li><img src="thumb3.png" onclick="ImgSlider('img3.png'); changeCircleColor('#d752b1')"></li>
+    </ul>
+    <ul class="sci">
+        <li><a href="#"><img src="facebook.png" onclick="redirectToURL('https://www.facebook.com/Starbucks/')"></a></li>
+        <li><a href="#"><img src="instagram.png" onclick="redirectToURL('https://www.instagram.com/starbucks/')"></a></li>
+        <li><a href="#"><img src="twitter.png" onclick="redirectToURL('https://twitter.com/Starbucks/')"></a></li>
+    </ul>
+</section>
+
+<script type="text/javascript">
+    function ImgSlider(anything) {
+        document.querySelector('.starbucks').src = anything;
+    }
+    function redirectToURL(url) {
+    window.location.href = url;
+}
+
+
+function changeCircleColor(color) {
+    document.querySelector('.circle').style.backgroundColor = color;
+    document.querySelector('.textbox').style.color = textColor;
+}
+
+
+</script>
+
+</body>
+</html>
