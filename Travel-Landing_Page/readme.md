@@ -2,8 +2,7 @@
 
 Welcome to सफर.io! This is the landing page repository for our travel platform that aims to revolutionize the way you plan and experience your journeys.
 
-![सफर.io Landing Page Screenshot](![Uploading Screenshot.png…]()
-)
+![सफर.io Landing Page Screenshot](Screenshot.png)
 
 ## About सफर.io
 
