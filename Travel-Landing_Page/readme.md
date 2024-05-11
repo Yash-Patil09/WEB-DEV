@@ -18,10 +18,6 @@ Welcome to सफर.io! This is the landing page repository for our travel plat
 
 We value your feedback! If you have any suggestions, questions, or issues regarding सफर.io or this landing page, please don't hesitate to [contact us](mailto:feedback@सफर.io).
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 सफर.io - Embark on Your Journey Today!
