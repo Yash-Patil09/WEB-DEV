@@ -2,7 +2,8 @@
 
 Welcome to सफर.io! This is the landing page repository for our travel platform that aims to revolutionize the way you plan and experience your journeys.
 
-![सफर.io Landing Page Screenshot](screenshot.png)
+![सफर.io Landing Page Screenshot](![Uploading Screenshot.png…]()
+)
 
 ## About सफर.io
 
@@ -13,13 +14,6 @@ Welcome to सफर.io! This is the landing page repository for our travel plat
 - **Travel Booking:** Book flights, accommodations, activities, and transportation seamlessly.
 - **Travel Community:** Connect with fellow travelers, share tips, and gain insights from experienced globetrotters.
 
-## Getting Started
-
-To explore our landing page and learn more about सफर.io, simply visit [सफर.io](https://www.सफर.io).
-
-## Contributing
-
-We welcome contributions from the community to enhance and improve सफर.io. If you're interested in contributing, please check out our [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## Feedback
 
